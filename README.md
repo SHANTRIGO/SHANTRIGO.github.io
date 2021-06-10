@@ -1,2 +1,2 @@
-# Дмитрий Шантор.github.io
+# SHANTRIGO.github.io
 My first site
