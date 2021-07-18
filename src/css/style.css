@@ -1,0 +1,476 @@
+@font-face {
+    font-family: "Montserrat_Bold";
+    src: url(../fonts/MontserratBold.ttf);
+}
+@font-face {
+    font-family: "Montserrat_Regular";
+    src: url(../fonts/MontserratRegular.ttf)
+}
+body {
+    background-color: #212121;
+    color: #fff;
+    font-family: "Montserrat_Regular", sans-serif;  
+}
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 60px;
+    padding-left: 200px;
+    float: left;
+}
+.menu {
+    font-size: 20px;
+    line-height: 60px;
+    padding-right: 200px;
+    float: right;
+}
+.menu li {
+    margin-left: 40px;
+    float: left;
+    text-transform: uppercase;
+}
+.main {
+    width: 100%;
+    height: 100%;
+    background: url(../img/bg.jpg); 
+    background-size: cover;
+}
+.title_container {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.title_container h1 {
+    font-size: 90px;
+    font-weight: bold;
+    line-height: 100px;
+}
+.title_container h4 {
+    margin-top: 30px;
+    font-size: 30px;
+}
+.title_container input {
+    height: 40px;
+    text-align: center;
+    opacity: 0.8;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 0 10px;
+    margin: 30px 15px 0px 15px;
+}
+.about_me_container {
+    text-align: center;
+    }
+.about_me_container h2 {
+    font-size: 50px;
+    font-weight: bold;
+    border-bottom: 5px #98927B solid;
+    padding-bottom: 10px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.about_me_container div {
+    margin-top: 30px;
+}
+.about_me_container h4 {
+    font-size: 30px;
+    line-height: 50px;
+    margin-top: 10px;
+}
+.about_me_container input {
+    height: 40px;
+    text-align: center;
+    opacity: 0.8;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 0 10px;
+    margin: 30px 15px 0px 15px;
+    margin-bottom: 20px;
+}
+.skills {
+    width: 100%;
+    height: 520px;
+    background: url(../img/bg-2.jpg); 
+    background-size: cover;
+}
+.my_skills h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    border-bottom: 5px #98927B solid;
+    padding-bottom: 10px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+.web_design {
+    text-align: center;
+    padding-left: 100px;
+    float: left;
+}
+.web_design svg {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+.web_design h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.web_design h4 {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.development {
+    text-align: center;
+    padding-left: 100px;
+    float: left;
+}
+.development svg {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+.development h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.development h4 {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.seo_opt {
+    text-align: center;
+    padding-left: 100px;
+    float: left;
+}
+.seo_opt svg {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+.seo_opt h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.seo_opt h4 {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.marketing {
+    text-align: center;
+    padding-left: 100px;
+    float: left;
+}
+.marketing svg {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+.marketing h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.marketing h4 {
+    font-size: 15px;
+    margin-bottom: 100px;
+}
+.my-projects img {
+    width: 500px;
+    height: 250px;
+    opacity: 0.6;
+    border-radius: 5px;
+}
+.fp {
+    text-align: center;
+    padding-left: 100px;
+    float: left;
+    margin-left: 75px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.fp h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.fp h4 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.perouette {
+    text-align: center;
+    padding-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.perouette h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.perouette h4 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.price {
+    text-align: center;
+    width: 100%;
+    height: 550px;
+    background: url(../img/bg-2.jpg); 
+    background-size: cover;
+}
+.price h4 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.site_price h2 {
+    font-size: 50px;
+    font-weight: bold;
+    border-bottom: 5px #98927B solid;
+    padding-bottom: 10px;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.price select {
+    font-size: 20px;
+    font-family: "Montserrat_Regular";
+    border-radius: 5px;
+    width: 300px;
+    height: 35px;
+}
+.price input {
+    font-size: 20px;
+    margin-top: 40px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: #212121;
+    background-color: #98927B;
+}
+.statistics {
+    width: 100%;
+    height: 550px;
+    background: url(../img/bg-3.jpg); 
+    background-size: cover;
+}
+.my_statistics h2 {
+    font-size: 50px;
+    font-weight: bold;
+    border-bottom: 5px #98927B solid;
+    padding-bottom: 10px;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+.smile {
+    text-align: center;
+    padding-left: 200px;
+    float: left;
+}
+.smile svg {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+.smile h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.smile h4 {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.time {
+    text-align: center;
+    padding-left: 100px;
+    float: left;
+}
+.time svg {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+.time h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.time h4 {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.check {
+    text-align: center;
+    padding-left: 100px;
+    float: left;
+}
+.check svg {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+.check h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.check h4 {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.trophy {
+    text-align: center;
+    padding-left: 100px;
+    float: left;
+}
+.trophy svg {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+.trophy h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.trophy h4 {
+    font-size: 15px;
+    margin-bottom: 100px;
+}
+.reviews {
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background: url(../img/bg-2.jpg); 
+    background-size: cover;
+}
+.my_reviews h2 {
+  font-size: 50px;
+    font-weight: bold;
+    border-bottom: 5px #98927B solid;
+    padding-bottom: 10px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+.my_reviews img {
+    width: 200px;
+    border-radius: 100px;
+    margin-top: 30px;
+}
+.my_reviews h3 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.my_reviews h4 {
+    font-size: 25px;
+}
+.contacts {
+  text-align: center;
+}
+.my_contacts h2 {
+    font-size: 50px;
+    font-weight: bold;
+    border-bottom: 5px #98927B solid;
+    padding-bottom: 10px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+.my_contacts h4 {
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.email {
+    float: left;
+    margin-left: 450px;
+}
+.email svg {
+    width: 50px;
+    height: 50px;
+}
+.phone {
+    float: right;
+    margin-right: 480px;
+}
+.phone svg {
+    width: 50px;
+    height: 50px;
+}
+.contact_answer {
+    text-align: center;
+}
+.contact_answer h4 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.contact_answer input {
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.contact_answer textarea {
+    font-size: 20px;
+    margin-top: 4px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: 534px;
+    height: 200px;
+}
+.button input {
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: #212121;
+    background-color: #98927B;
+}
+.insta {
+    float: left;
+    margin-top: 20px;
+}
+.insta svg {
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.vk {
+    float: left;
+    margin-left: 665px;
+    padding: 0 30px;
+}
+.vk svg {
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
